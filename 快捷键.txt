@@ -1,0 +1,11 @@
+ctrl +/-：放大缩小
+空格键+鼠标左键：移动
+ctrl+0:恢复
+左键不松，按住空格键
+
+PS截图
+crtl+c:复制选区
+ctrl+n:新建画布（修改尺寸）
+ctrl+v:粘贴
+ctrl+alt+shift+s:保存
+png  jpg  jif

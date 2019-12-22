@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .parent{
+        font-size: 50px;
+    }
+    .nlk{
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        background-color: red;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="nlk"></div>
+        <div class="nlk" style="margin-left: -0.25em;"></div>
+    </div>
+    <!-- 去掉内联块元素之间换行符的一种方法：将后面的内联块设置左外边距负值，为父元素字体大小的0.25倍 -->
+</body>
+</html>

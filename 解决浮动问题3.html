@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .parent{
+        border: 2px #000 solid;
+    }
+    .parent>div{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 1px #00f solid;
+        float: left;
+    }
+    .another{
+        width: 150px;
+        height: 150px;
+        background-color: green;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <span style="display: block; clear:both;"></span>
+    </div>
+    <div class="another"></div>
+    <!-- 为所有浮动元素的后面设置一个空元素，在里面设置清除浮动 -->
+    <!-- 问题：创建了一个没有任何意义的空标签 -->
+</body>
+</html>
